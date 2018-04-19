@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "745290872702",
+    "firebase_url": "https://app-resturent.firebaseio.com",
+    "project_id": "app-resturent",
+    "storage_bucket": "app-resturent.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745290872702:android:f5a715a7133ee79b",
+        "android_client_info": {
+          "package_name": "com.andygopu.androidantariksa.appresturent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745290872702-d8hdl2fpupqj50b3t3f88o2nqufeg4ff.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.andygopu.androidantariksa.appresturent",
+            "certificate_hash": "fd37349e47534c8cf206f7102a12f2d8710f0909"
+          }
+        },
+        {
+          "client_id": "745290872702-39cgmea4egsedov803qt8uq5b0to6ieo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcbLflCAeWlwNTPu5_pg0kEA7tX8jXtG4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745290872702-39cgmea4egsedov803qt8uq5b0to6ieo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

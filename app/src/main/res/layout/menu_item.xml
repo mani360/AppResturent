@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:elevation="42dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tvDesc"
+                android:layout_alignBottom="@+id/tvDesc"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="15dp"
+                android:textColor="#0c9609"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:text="200" />
+
+            <ImageView
+                android:id="@+id/imageItem"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                app:srcCompat="@drawable/common_google_signin_btn_icon_dark" />
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="16dp"
+                android:layout_toEndOf="@+id/imageItem"
+                android:text="Burger"
+                android:textColor="#000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/tvName"
+                android:layout_below="@+id/tvName"
+                android:layout_marginTop="13dp"
+                android:textSize="18sp"
+                android:text="Burger with cheese" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>
